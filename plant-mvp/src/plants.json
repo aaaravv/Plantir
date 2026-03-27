@@ -7,7 +7,7 @@
     "time": "low",
     "temperatureRange": "60-85°F",
     "care": "Water sparingly. Let soil dry completely between waterings. Thrives in indirect light but tolerant of low light.",
-    "image": "https://images.unsplash.com/photo-1591613595262-a04a0c02f2e8?w=500&h=500&fit=crop"
+    "image": "/images/snake-plant.jpg"
   },
   {
     "name": "Aloe Vera",
@@ -17,7 +17,7 @@
     "time": "low",
     "temperatureRange": "70-95°F",
     "care": "Prefers bright, indirect light. Water infrequently - only when soil is completely dry. Tolerates heat and drought.",
-    "image": "https://images.unsplash.com/photo-1605471927514-f2be620edc73?w=500&h=500&fit=crop"
+    "image": "/images/aloe-vera.jpg"
   },
   {
     "name": "Peace Lily",
@@ -27,7 +27,7 @@
     "time": "medium",
     "temperatureRange": "65-80°F",
     "care": "Does well in low to moderate light. Keep soil consistently moist but not waterlogged. Will droop when thirsty as a signal.",
-    "image": "https://images.unsplash.com/photo-1578618649893-8d9c4e8daf6f?w=500&h=500&fit=crop"
+    "image": "/images/peace-lily.jpg"
   },
   {
     "name": "Basil",
@@ -37,7 +37,7 @@
     "time": "high",
     "temperatureRange": "70-85°F",
     "care": "Needs 6-8 hours of high quality light daily. Keep soil moist. Pinch off flower buds to encourage leaf growth. Use leaves regularly.",
-    "image": "https://images.unsplash.com/photo-1617158743430-a2f9b7b89697?w=500&h=500&fit=crop"
+    "image": "/images/basil.jpg"
   },
   {
     "name": "Cactus",
@@ -47,7 +47,7 @@
     "time": "low",
     "temperatureRange": "70-95°F",
     "care": "Requires plenty of bright light and minimal water. Allow soil to dry out completely between watering. Prefers well-draining soil.",
-    "image": "https://images.unsplash.com/photo-1586654883433-87d6da15fecd?w=500&h=500&fit=crop"
+    "image": "/images/cactus.jpg"
   },
   {
     "name": "Orchid",
@@ -57,27 +57,27 @@
     "time": "medium",
     "temperatureRange": "65-75°F",
     "care": "Prefer filtered, indirect bright light. Water weekly with room temperature water. Benefits from high humidity. Blooms require patience.",
-    "image": "https://images.unsplash.com/photo-1587482414897-1695bc57b6d2?w=500&h=500&fit=crop"
+    "image": "/images/orchid.jpg"
   },
   {
     "name": "Spider Plant",
     "light": "medium",
-    "climate": "cool",
+    "climate": "cold",
     "maintenance": "low",
     "time": "low",
     "temperatureRange": "55-75°F",
     "care": "Very tolerant and easy to grow. Prefers bright, indirect light. Water when top inch of soil is dry. Produces babies on runners.",
-    "image": "https://images.unsplash.com/photo-1614697284694-6c8900f3d8e4?w=500&h=500&fit=crop"
+    "image": "/images/spider-plant.jpg"
   },
   {
     "name": "Lavender",
     "light": "high",
-    "climate": "cool",
+    "climate": "cold",
     "maintenance": "medium",
     "time": "medium",
     "temperatureRange": "50-70°F",
     "care": "Requires full bright light for 6+ hours daily. Prefers well-draining soil. Water when top inch is dry. Fragrant flowers attract pollinators.",
-    "image": "https://images.unsplash.com/photo-1570038886570-29e7e50b50cd?w=500&h=500&fit=crop"
+    "image": "/images/lavender.jpg"
   },
   {
     "name": "Fiddle Leaf Fig",
@@ -87,17 +87,17 @@
     "time": "high",
     "temperatureRange": "65-75°F",
     "care": "Needs bright, indirect light and consistent care. Water when top inch of soil is dry. Wipe leaves periodically. Avoid moving location frequently.",
-    "image": "https://images.unsplash.com/photo-1541223440508-6b4e4b70c50f?w=500&h=500&fit=crop"
+    "image": "/images/fiddle.jpg"
   },
   {
     "name": "Mint",
     "light": "medium",
-    "climate": "cool",
+    "climate": "cold",
     "maintenance": "medium",
     "time": "medium",
     "temperatureRange": "50-70°F",
     "care": "Tolerant and vigorous grower. Prefers medium light and consistently moist soil. Pinch back frequently to encourage bushiness and use leaves.",
-    "image": "https://images.unsplash.com/photo-1599599810982-c15fe5d69b85?w=500&h=500&fit=crop"
+    "image": "/images/mint.jpg"
   },
   {
     "name": "Jade Plant",
@@ -107,17 +107,17 @@
     "time": "low",
     "temperatureRange": "65-75°F",
     "care": "Likes bright light and can tolerate some direct sun. Water sparingly - only when soil is completely dry. Slow growing and long-lived.",
-    "image": "https://images.unsplash.com/photo-1603834221318-c60481cccaf7?w=500&h=500&fit=crop"
+    "image": "/images/jade-plant.jpg"
   },
   {
     "name": "Ageratum",
     "light": "medium",
-    "climate": "cool",
+    "climate": "cold",
     "maintenance": "medium",
     "time": "medium",
     "temperatureRange": "55-70°F",
     "care": "Prefer medium light. Keep soil consistently moist but not waterlogged. Produces fluffy flowers in blue, pink, or white. Deadhead for more blooms.",
-    "image": "https://images.unsplash.com/photo-1542274633-fa0e3b44a9a2?w=500&h=500&fit=crop"
+    "image": "/images/ageratum.jpg"
   },
   {
     "name": "Golden Pothos",
@@ -127,17 +127,17 @@
     "time": "low",
     "temperatureRange": "65-85°F",
     "care": "Extremely forgiving vine. Tolerates low light but grows faster with more light. Water when top inch of soil is dry. Excellent for hanging baskets.",
-    "image": "https://images.unsplash.com/photo-1611610513669-8671e94e9c96?w=500&h=500&fit=crop"
+    "image": "/images/goldenpothos.jpg"
   },
   {
     "name": "Rosemary",
     "light": "high",
-    "climate": "cool",
+    "climate": "cold",
     "maintenance": "medium",
     "time": "medium",
     "temperatureRange": "50-70°F",
     "care": "Aromatic herb needing 6+ hours of bright sunlight. Prefers well-draining soil that's not too wet. Drought tolerant once established. Use leaves in cooking.",
-    "image": "https://images.unsplash.com/photo-1593618998923-e65e11fb59d7?w=500&h=500&fit=crop"
+    "image": "/images/rosemary.jpg"
   },
   {
     "name": "ZZ Plant",
@@ -147,17 +147,17 @@
     "time": "low",
     "temperatureRange": "65-85°F",
     "care": "Extremely low maintenance and tolerates low light. Water infrequently - every 2-3 weeks. Glossy leaflets add tropical look. Very hardy.",
-    "image": "https://images.unsplash.com/photo-1611244282382-6ac3750c4e4f?w=500&h=500&fit=crop"
+    "image": "/images/zz-plant.jpg"
   },
   {
     "name": "Camellia",
     "light": "medium",
-    "climate": "cool",
+    "climate": "cold",
     "maintenance": "high",
     "time": "high",
     "temperatureRange": "50-65°F",
     "care": "Beautiful flowers require careful attention. Prefers bright, filtered light and consistently moist acidic soil. High humidity helps. Blooms in winter.",
-    "image": "https://images.unsplash.com/photo-1550583642-1dc52ca81748?w=500&h=500&fit=crop"
+    "image": "/images/camellia.jpg"
   },
   {
     "name": "Begonia",
@@ -167,17 +167,17 @@
     "time": "medium",
     "temperatureRange": "65-75°F",
     "care": "Prefers bright, indirect light. Keep soil consistently moist but with good drainage. Enjoys humidity. Many varieties with gorgeous foliage.",
-    "image": "https://images.unsplash.com/photo-1614694278313-be8f6e314f14?w=500&h=500&fit=crop"
+    "image": "/images/begonia.jpg"
   },
   {
     "name": "Sunflower",
     "light": "high",
-    "climate": "cool",
+    "climate": "cold",
     "maintenance": "high",
     "time": "high",
     "temperatureRange": "50-70°F",
     "care": "Vibrant flowers love full sunlight for 6+ hours daily. Keep soil moist during growing season. Tall varieties may need staking. Cheerful blooms.",
-    "image": "https://images.unsplash.com/photo-1600315779839-f47ff1c9ae5c?w=500&h=500&fit=crop"
+    "image": "/images/sunflower.jpg"
   },
   {
     "name": "Echeveria",
@@ -187,7 +187,7 @@
     "time": "low",
     "temperatureRange": "70-90°F",
     "care": "Succulent needing plenty of bright light. Water sparingly and let soil dry completely. Prefers well-draining cactus soil. Rosette-shaped leaves.",
-    "image": "https://images.unsplash.com/photo-1623450810129-9695a75a82b3?w=500&h=500&fit=crop"
+    "image": "/images/echeveria.jpg"
   },
   {
     "name": "Philodendron",
@@ -197,6 +197,6 @@
     "time": "low",
     "temperatureRange": "65-85°F",
     "care": "Great for beginners. Tolerates various light conditions including low light. Water when top inch of soil is dry. Easy propagation from cuttings.",
-    "image": "https://images.unsplash.com/photo-1632207691745-415cbabe75f9?w=500&h=500&fit=crop"
+    "image": "/images/philodendron.jpg"
   }
 ]
