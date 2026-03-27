@@ -1,26 +1,142 @@
 [
   {
     "name": "Snake Plant",
-    "light": "low/medium",
-    "time": "low",
-    "care": "Let soil dry between waterings"
+    "sunlight": "low/medium",
+    "climate": "cool",
+    "maintenance": "low",
+    "image": "replace-with-image-url"
   },
   {
     "name": "Aloe Vera",
-    "light": "high",
-    "time": "low",
-    "care": "Needs bright indirect sunlight"
+    "sunlight": "high",
+    "climate": "hot",
+    "maintenance": "low",
+    "image": "replace-with-image-url"
   },
   {
     "name": "Peace Lily",
-    "light": "low/medium",
-    "time": "medium",
-    "care": "Keep soil moist, avoid direct sunlight"
+    "sunlight": "low/medium",
+    "climate": "warm",
+    "maintenance": "medium",
+    "image": "replace-with-image-url"
   },
   {
     "name": "Basil",
-    "light": "high",
-    "time": "high",
-    "care": "Needs daily watering and lots of sunlight"
+    "sunlight": "high",
+    "climate": "warm",
+    "maintenance": "high",
+    "image": "replace-with-image-url"
+  },
+  {
+    "name": "Cactus",
+    "sunlight": "high",
+    "climate": "hot",
+    "maintenance": "low",
+    "image": "replace-with-image-url"
+  },
+  {
+    "name": "Orchid",
+    "sunlight": "medium",
+    "climate": "warm",
+    "maintenance": "medium",
+    "image": "replace-with-image-url"
+  },
+  {
+    "name": "Spider Plant",
+    "sunlight": "medium",
+    "climate": "cool",
+    "maintenance": "medium",
+    "image": "replace-with-image-url"
+  },
+  {
+    "name": "Lavender",
+    "sunlight": "high",
+    "climate": "cool",
+    "maintenance": "medium",
+    "image": "replace-with-image-url"
+  },
+  {
+    "name": "Fiddle Leaf Fig",
+    "sunlight": "medium/high",
+    "climate": "warm",
+    "maintenance": "high",
+    "image": "replace-with-image-url"
+  },
+  {
+    "name": "Mint",
+    "sunlight": "medium",
+    "climate": "cool",
+    "maintenance": "medium",
+    "image": "replace-with-image-url"
+  },
+  {
+    "name": "Jade Plant",
+    "sunlight": "high",
+    "climate": "hot",
+    "maintenance": "low",
+    "image": "replace-with-image-url"
+  },
+  {
+    "name": "Ageratum",
+    "sunlight": "medium",
+    "climate": "cool",
+    "maintenance": "medium",
+    "image": "replace-with-image-url"
+  },
+  {
+    "name": "Golden Pothos",
+    "sunlight": "low/medium",
+    "climate": "warm",
+    "maintenance": "low",
+    "image": "replace-with-image-url"
+  },
+  {
+    "name": "Rosemary",
+    "sunlight": "high",
+    "climate": "cool",
+    "maintenance": "medium",
+    "image": "replace-with-image-url"
+  },
+  {
+    "name": "ZZ Plant",
+    "sunlight": "low",
+    "climate": "hot",
+    "maintenance": "low",
+    "image": "replace-with-image-url"
+  },
+  {
+    "name": "Camellia",
+    "sunlight": "medium",
+    "climate": "cool",
+    "maintenance": "high",
+    "image": "replace-with-image-url"
+  },
+  {
+    "name": "Begonia",
+    "sunlight": "low/medium",
+    "climate": "warm",
+    "maintenance": "medium",
+    "image": "replace-with-image-url"
+  },
+  {
+    "name": "Sunflower",
+    "sunlight": "high",
+    "climate": "cool",
+    "maintenance": "high",
+    "image": "replace-with-image-url"
+  },
+  {
+    "name": "Echeveria",
+    "sunlight": "high",
+    "climate": "hot",
+    "maintenance": "low",
+    "image": "replace-with-image-url"
+  },
+  {
+    "name": "Philodendron",
+    "sunlight": "medium",
+    "climate": "warm",
+    "maintenance": "medium",
+    "image": "replace-with-image-url"
   }
 ]
