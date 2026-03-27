@@ -7,7 +7,9 @@
     "time": "low",
     "temperatureRange": "60-85°F",
     "care": "Water sparingly. Let soil dry completely between waterings. Thrives in indirect light but tolerant of low light.",
-    "image": "/images/snake-plant.jpg"
+    "image": "/images/snake-plant.jpg",
+    "waterAmount": "Small (220ml / 8oz)",
+    "waterFrequency": "Monthly"
   },
   {
     "name": "Aloe Vera",
@@ -17,7 +19,9 @@
     "time": "low",
     "temperatureRange": "70-95°F",
     "care": "Prefers bright, indirect light. Water infrequently - only when soil is completely dry. Tolerates heat and drought.",
-    "image": "/images/aloe-vera.jpg"
+    "image": "/images/aloe-vera.jpg",
+    "waterAmount": "Small (220ml / 8oz)",
+    "waterFrequency": "Every 2 weeks"
   },
   {
     "name": "Peace Lily",
@@ -27,7 +31,9 @@
     "time": "medium",
     "temperatureRange": "65-80°F",
     "care": "Does well in low to moderate light. Keep soil consistently moist but not waterlogged. Will droop when thirsty as a signal.",
-    "image": "/images/peace-lily.jpg"
+    "image": "/images/peace-lily.jpg",
+    "waterAmount": "Medium (500ml / 16oz)",
+    "waterFrequency": "Weekly"
   },
   {
     "name": "Basil",
@@ -37,7 +43,9 @@
     "time": "high",
     "temperatureRange": "70-85°F",
     "care": "Needs 6-8 hours of high quality light daily. Keep soil moist. Pinch off flower buds to encourage leaf growth. Use leaves regularly.",
-    "image": "/images/basil.jpg"
+    "image": "/images/basil.jpg",
+    "waterAmount": "Medium (500ml / 16oz)",
+    "waterFrequency": "Daily"
   },
   {
     "name": "Cactus",
@@ -47,7 +55,9 @@
     "time": "low",
     "temperatureRange": "70-95°F",
     "care": "Requires plenty of bright light and minimal water. Allow soil to dry out completely between watering. Prefers well-draining soil.",
-    "image": "/images/cactus.jpg"
+    "image": "/images/cactus.jpg",
+    "waterAmount": "Small (220ml / 8oz)",
+    "waterFrequency": "Monthly"
   },
   {
     "name": "Orchid",
@@ -57,7 +67,9 @@
     "time": "medium",
     "temperatureRange": "65-75°F",
     "care": "Prefer filtered, indirect bright light. Water weekly with room temperature water. Benefits from high humidity. Blooms require patience.",
-    "image": "/images/orchid.jpg"
+    "image": "/images/orchid.jpg",
+    "waterAmount": "Small (220ml / 8oz)",
+    "waterFrequency": "Weekly"
   },
   {
     "name": "Spider Plant",
@@ -67,7 +79,9 @@
     "time": "low",
     "temperatureRange": "55-75°F",
     "care": "Very tolerant and easy to grow. Prefers bright, indirect light. Water when top inch of soil is dry. Produces babies on runners.",
-    "image": "/images/spider-plant.jpg"
+    "image": "/images/spider-plant.jpg",
+    "waterAmount": "Medium (500ml / 16oz)",
+    "waterFrequency": "Weekly"
   },
   {
     "name": "Lavender",
@@ -77,7 +91,9 @@
     "time": "medium",
     "temperatureRange": "50-70°F",
     "care": "Requires full bright light for 6+ hours daily. Prefers well-draining soil. Water when top inch is dry. Fragrant flowers attract pollinators.",
-    "image": "/images/lavender.jpg"
+    "image": "/images/lavender.jpg",
+    "waterAmount": "Small (220ml / 8oz)",
+    "waterFrequency": "Every 3 days"
   },
   {
     "name": "Fiddle Leaf Fig",
@@ -87,7 +103,9 @@
     "time": "high",
     "temperatureRange": "65-75°F",
     "care": "Needs bright, indirect light and consistent care. Water when top inch of soil is dry. Wipe leaves periodically. Avoid moving location frequently.",
-    "image": "/images/fiddle.jpg"
+    "image": "/images/fiddle.jpg",
+    "waterAmount": "Medium (500ml / 16oz)",
+    "waterFrequency": "Weekly"
   },
   {
     "name": "Mint",
@@ -97,7 +115,9 @@
     "time": "medium",
     "temperatureRange": "50-70°F",
     "care": "Tolerant and vigorous grower. Prefers medium light and consistently moist soil. Pinch back frequently to encourage bushiness and use leaves.",
-    "image": "/images/mint.jpg"
+    "image": "/images/mint.jpg",
+    "waterAmount": "Medium (500ml / 16oz)",
+    "waterFrequency": "Daily"
   },
   {
     "name": "Jade Plant",
@@ -107,7 +127,9 @@
     "time": "low",
     "temperatureRange": "65-75°F",
     "care": "Likes bright light and can tolerate some direct sun. Water sparingly - only when soil is completely dry. Slow growing and long-lived.",
-    "image": "/images/jade-plant.jpg"
+    "image": "/images/jade-plant.jpg",
+    "waterAmount": "Small (220ml / 8oz)",
+    "waterFrequency": "Every 2 weeks"
   },
   {
     "name": "Ageratum",
@@ -117,7 +139,9 @@
     "time": "medium",
     "temperatureRange": "55-70°F",
     "care": "Prefer medium light. Keep soil consistently moist but not waterlogged. Produces fluffy flowers in blue, pink, or white. Deadhead for more blooms.",
-    "image": "/images/ageratum.jpg"
+    "image": "/images/ageratum.jpg",
+    "waterAmount": "Medium (500ml / 16oz)",
+    "waterFrequency": "Daily"
   },
   {
     "name": "Golden Pothos",
@@ -127,7 +151,9 @@
     "time": "low",
     "temperatureRange": "65-85°F",
     "care": "Extremely forgiving vine. Tolerates low light but grows faster with more light. Water when top inch of soil is dry. Excellent for hanging baskets.",
-    "image": "/images/goldenpothos.jpg"
+    "image": "/images/goldenpothos.jpg",
+    "waterAmount": "Small (220ml / 8oz)",
+    "waterFrequency": "Weekly"
   },
   {
     "name": "Rosemary",
@@ -137,7 +163,9 @@
     "time": "medium",
     "temperatureRange": "50-70°F",
     "care": "Aromatic herb needing 6+ hours of bright sunlight. Prefers well-draining soil that's not too wet. Drought tolerant once established. Use leaves in cooking.",
-    "image": "/images/rosemary.jpg"
+    "image": "/images/rosemary.jpg",
+    "waterAmount": "Small (220ml / 8oz)",
+    "waterFrequency": "Every 3 days"
   },
   {
     "name": "ZZ Plant",
@@ -147,7 +175,9 @@
     "time": "low",
     "temperatureRange": "65-85°F",
     "care": "Extremely low maintenance and tolerates low light. Water infrequently - every 2-3 weeks. Glossy leaflets add tropical look. Very hardy.",
-    "image": "/images/zz-plant.jpg"
+    "image": "/images/zz-plant.jpg",
+    "waterAmount": "Small (220ml / 8oz)",
+    "waterFrequency": "Every 2 weeks"
   },
   {
     "name": "Camellia",
@@ -157,7 +187,9 @@
     "time": "high",
     "temperatureRange": "50-65°F",
     "care": "Beautiful flowers require careful attention. Prefers bright, filtered light and consistently moist acidic soil. High humidity helps. Blooms in winter.",
-    "image": "/images/camellia.jpg"
+    "image": "/images/camellia.jpg",
+    "waterAmount": "Medium (500ml / 16oz)",
+    "waterFrequency": "Every 3 days"
   },
   {
     "name": "Begonia",
@@ -167,7 +199,9 @@
     "time": "medium",
     "temperatureRange": "65-75°F",
     "care": "Prefers bright, indirect light. Keep soil consistently moist but with good drainage. Enjoys humidity. Many varieties with gorgeous foliage.",
-    "image": "/images/begonia.jpg"
+    "image": "/images/begonia.jpg",
+    "waterAmount": "Medium (500ml / 16oz)",
+    "waterFrequency": "Daily"
   },
   {
     "name": "Sunflower",
@@ -177,7 +211,9 @@
     "time": "high",
     "temperatureRange": "50-70°F",
     "care": "Vibrant flowers love full sunlight for 6+ hours daily. Keep soil moist during growing season. Tall varieties may need staking. Cheerful blooms.",
-    "image": "/images/sunflower.jpg"
+    "image": "/images/sunflower.jpg",
+    "waterAmount": "Large (1L / 32oz)",
+    "waterFrequency": "Daily"
   },
   {
     "name": "Echeveria",
@@ -187,7 +223,9 @@
     "time": "low",
     "temperatureRange": "70-90°F",
     "care": "Succulent needing plenty of bright light. Water sparingly and let soil dry completely. Prefers well-draining cactus soil. Rosette-shaped leaves.",
-    "image": "/images/echeveria.jpg"
+    "image": "/images/echeveria.jpg",
+    "waterAmount": "Small (220ml / 8oz)",
+    "waterFrequency": "Every 2 weeks"
   },
   {
     "name": "Philodendron",
@@ -197,6 +235,8 @@
     "time": "low",
     "temperatureRange": "65-85°F",
     "care": "Great for beginners. Tolerates various light conditions including low light. Water when top inch of soil is dry. Easy propagation from cuttings.",
-    "image": "/images/philodendron.jpg"
+    "image": "/images/philodendron.jpg",
+    "waterAmount": "Small (220ml / 8oz)",
+    "waterFrequency": "Weekly"
   }
 ]
