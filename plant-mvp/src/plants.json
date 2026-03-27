@@ -4,139 +4,139 @@
     "sunlight": "low/medium",
     "climate": "cool",
     "maintenance": "low",
-    "image": "replace-with-image-url"
+    "image": "/images/snake-plant.jpg"
   },
   {
     "name": "Aloe Vera",
     "sunlight": "high",
     "climate": "hot",
     "maintenance": "low",
-    "image": "replace-with-image-url"
+    "image": "/images/aloe-vera.jpg"
   },
   {
     "name": "Peace Lily",
     "sunlight": "low/medium",
     "climate": "warm",
     "maintenance": "medium",
-    "image": "replace-with-image-url"
+    "image": "/images/peace-lily.jpg"
   },
   {
     "name": "Basil",
     "sunlight": "high",
     "climate": "warm",
     "maintenance": "high",
-    "image": "replace-with-image-url"
+    "image": "/images/basil.jpg"
   },
   {
     "name": "Cactus",
     "sunlight": "high",
     "climate": "hot",
     "maintenance": "low",
-    "image": "replace-with-image-url"
+    "image": "/images/cactus.jpg"
   },
   {
     "name": "Orchid",
     "sunlight": "medium",
     "climate": "warm",
     "maintenance": "medium",
-    "image": "replace-with-image-url"
+    "image": "/images/orchid.jpg"
   },
   {
     "name": "Spider Plant",
     "sunlight": "medium",
     "climate": "cool",
     "maintenance": "medium",
-    "image": "replace-with-image-url"
+    "image": "/images/spider-plant.jpg"
   },
   {
     "name": "Lavender",
     "sunlight": "high",
     "climate": "cool",
     "maintenance": "medium",
-    "image": "replace-with-image-url"
+    "image": "/images/lavender.jpg"
   },
   {
     "name": "Fiddle Leaf Fig",
     "sunlight": "medium/high",
     "climate": "warm",
     "maintenance": "high",
-    "image": "replace-with-image-url"
+    "image": "/images/fiddle.jpg"
   },
   {
     "name": "Mint",
     "sunlight": "medium",
     "climate": "cool",
     "maintenance": "medium",
-    "image": "replace-with-image-url"
+    "image": "/images/mint.jpg"
   },
   {
     "name": "Jade Plant",
     "sunlight": "high",
     "climate": "hot",
     "maintenance": "low",
-    "image": "replace-with-image-url"
+    "image": "/images/jade-plant.jpg"
   },
   {
     "name": "Ageratum",
     "sunlight": "medium",
     "climate": "cool",
     "maintenance": "medium",
-    "image": "replace-with-image-url"
+    "image": "/images/ageratum.jpg"
   },
   {
     "name": "Golden Pothos",
     "sunlight": "low/medium",
     "climate": "warm",
     "maintenance": "low",
-    "image": "replace-with-image-url"
+    "image": "/images/goldenpothos.jpg"
   },
   {
     "name": "Rosemary",
     "sunlight": "high",
     "climate": "cool",
     "maintenance": "medium",
-    "image": "replace-with-image-url"
+    "image": "/images/rosemary.jpg"
   },
   {
     "name": "ZZ Plant",
     "sunlight": "low",
     "climate": "hot",
     "maintenance": "low",
-    "image": "replace-with-image-url"
+    "image": "/images/zz-plant.jpg"
   },
   {
     "name": "Camellia",
     "sunlight": "medium",
     "climate": "cool",
     "maintenance": "high",
-    "image": "replace-with-image-url"
+    "image": "/images/camellia.jpg"
   },
   {
     "name": "Begonia",
     "sunlight": "low/medium",
     "climate": "warm",
     "maintenance": "medium",
-    "image": "replace-with-image-url"
+    "image": "/images/begonia.jpg"
   },
   {
     "name": "Sunflower",
     "sunlight": "high",
     "climate": "cool",
     "maintenance": "high",
-    "image": "replace-with-image-url"
+    "image": "/images/sunflower.jpg"
   },
   {
     "name": "Echeveria",
     "sunlight": "high",
     "climate": "hot",
     "maintenance": "low",
-    "image": "replace-with-image-url"
+    "image": "/images/echeveria.jpg"
   },
   {
     "name": "Philodendron",
     "sunlight": "medium",
     "climate": "warm",
     "maintenance": "medium",
-    "image": "replace-with-image-url"
+    "image": "/images/philodendron.jpg"
   }
 ]
