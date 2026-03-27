@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Snake Plant",
+    "light": "low/medium",
+    "time": "low",
+    "care": "Let soil dry between waterings"
+  },
+  {
+    "name": "Aloe Vera",
+    "light": "high",
+    "time": "low",
+    "care": "Needs bright indirect sunlight"
+  },
+  {
+    "name": "Peace Lily",
+    "light": "low/medium",
+    "time": "medium",
+    "care": "Keep soil moist, avoid direct sunlight"
+  },
+  {
+    "name": "Basil",
+    "light": "high",
+    "time": "high",
+    "care": "Needs daily watering and lots of sunlight"
+  }
+]
