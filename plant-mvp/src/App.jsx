@@ -32,7 +32,7 @@ function App() {
           onChange={(e) => setZipcode(e.target.value)}
           className="border p-2 mb-4 w-full"
         />
-
+        <br />
         <label className="block mb-2">Sunlight Level:</label>
         <select
           value={sunlight}
@@ -44,7 +44,7 @@ function App() {
           <option value="medium">Medium</option>
           <option value="high">High</option>
         </select>
-
+        <br />
         <label className="block mb-2">Time You Can Spend Per Week:</label>
         <select
           value={time}
