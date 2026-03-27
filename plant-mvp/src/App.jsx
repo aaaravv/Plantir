@@ -99,9 +99,8 @@ function App() {
     selections.sunlight && selections.climate && selections.maintenance;
 
   return (
-    <main className="app-shell">
+    <>
       <section className="hero-panel">
-        <p className="eyebrow">Plantir</p>
         <div className="hero-content">
           <h1>Find the right plant for your lifestyle.</h1>
           <p className="hero-copy">
@@ -194,7 +193,7 @@ function App() {
           ))}
         </div>
       </section>
-    </main>
+    </>
   );
 }
 
