@@ -1,6 +1,11 @@
 import { useState } from "react";
 import plantsData from "./plants.json";
 import "./App.css";
+import aloeVeraImage from "./assets/aloe-vera.jpg";
+import basilImage from "./assets/basil.jpg";
+import heroImage from "./assets/hero.png";
+import peaceLilyImage from "./assets/peace-lily.jpg";
+import snakePlantImage from "./assets/snake-plant.jpg";
 
 const optionGroups = [
   {
@@ -37,8 +42,22 @@ const optionGroups = [
 
 const normalize = (value) => (value || "").toString().trim().toLowerCase();
 
+const plantImages = {
+  "snake plant": snakePlantImage,
+  "aloe vera": aloeVeraImage,
+  "peace lily": peaceLilyImage,
+  basil: basilImage,
+};
+
+const normalizeClimate = (value) => {
+  const climate = normalize(value);
+
+  if (climate === "cool") return "cold";
+  return climate;
+};
+
 const inferClimate = (plant) => {
-  const explicitClimate = normalize(plant.climate);
+  const explicitClimate = normalizeClimate(plant.climate);
   if (explicitClimate) return explicitClimate;
 
   const temp = normalize(plant.temperatureRange);
@@ -54,7 +73,25 @@ const inferClimate = (plant) => {
 };
 
 const getMaintenance = (plant) => normalize(plant.maintenance || plant.time);
-const getSunlight = (plant) => normalize(plant.light);
+const getSunlight = (plant) => normalize(plant.sunlight || plant.light);
+const getImage = (plant) => {
+  const image = normalize(plant.image);
+
+  if (image && !image.includes("replace-with-image-url")) return plant.image;
+  return plantImages[normalize(plant.name)] || heroImage;
+};
+const getCareText = (plant) =>
+  plant.care ||
+  `Thrives in ${plant.sunlight || plant.light || "mixed light"} with ${
+    plant.maintenance || plant.time || "moderate"
+  } maintenance.`;
+const getTemperatureText = (plant) =>
+  plant.temperatureRange ||
+  (inferClimate(plant) === "hot"
+    ? "Best in warm to hot spaces"
+    : inferClimate(plant) === "cold"
+      ? "Handles cooler spaces well"
+      : "Prefers average indoor temperatures");
 
 function App() {
   const [selections, setSelections] = useState({
@@ -99,9 +136,8 @@ function App() {
     selections.sunlight && selections.climate && selections.maintenance;
 
   return (
-    <main className="app-shell">
+    <>
       <section className="hero-panel">
-        <p className="eyebrow">Plantir</p>
         <div className="hero-content">
           <h1>Find the right plant for your lifestyle.</h1>
           <p className="hero-copy">
@@ -169,7 +205,7 @@ function App() {
           {results.map((plant) => (
             <article key={plant.name} className="plant-card">
               <img
-                src={plant.image}
+                src={getImage(plant)}
                 alt={plant.name}
                 className="plant-image"
               />
@@ -182,19 +218,19 @@ function App() {
                 <h3>{plant.name}</h3>
 
                 <div className="plant-meta">
-                  <p><strong>Sunlight:</strong> {plant.light}</p>
-                  <p><strong>Climate:</strong> {plant.climate || inferClimate(plant)}</p>
+                  <p><strong>Sunlight:</strong> {plant.sunlight || plant.light}</p>
+                  <p><strong>Climate:</strong> {inferClimate(plant)}</p>
                   <p><strong>Maintenance:</strong> {plant.maintenance || plant.time}</p>
-                  <p><strong>Temperature:</strong> {plant.temperatureRange}</p>
+                  <p><strong>Temperature:</strong> {getTemperatureText(plant)}</p>
                 </div>
 
-                <p className="care-text">{plant.care}</p>
+                <p className="care-text">{getCareText(plant)}</p>
               </div>
             </article>
           ))}
         </div>
       </section>
-    </main>
+    </>
   );
 }
 

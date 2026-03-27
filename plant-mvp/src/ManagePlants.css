@@ -1,0 +1,497 @@
+.manage-section {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.manage-header {
+  text-align: center;
+}
+
+.manage-header h1 {
+  margin: 0 0 8px;
+  font-size: 2.2rem;
+  color: #23412a;
+}
+
+.manage-header p {
+  margin: 0;
+  font-size: 1.05rem;
+  color: #5c655e;
+  line-height: 1.6;
+}
+
+/* Empty state */
+.empty-state-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+.empty-state {
+  text-align: center;
+  max-width: 500px;
+}
+
+.empty-state h2 {
+  margin: 0 0 12px;
+  font-size: 1.6rem;
+  color: #264b2f;
+}
+
+.empty-state p {
+  margin: 0 0 24px;
+  color: #5c655e;
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+/* Add form - plant selection */
+.add-form-container {
+  background: rgba(255, 252, 246, 0.88);
+  border: 2px solid #87a377;
+  border-radius: 24px;
+  padding: 28px;
+  margin-bottom: 20px;
+  box-shadow: 0 12px 28px rgba(88, 102, 77, 0.08);
+}
+
+.add-form-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.add-form-header h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #264b2f;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #5c655e;
+  padding: 4px 8px;
+  transition: color 0.18s ease;
+}
+
+.close-btn:hover {
+  color: #264b2f;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 18px;
+  border: 2px solid #87a377;
+  border-radius: 12px;
+  font-size: 1rem;
+  background: #fffdf7;
+  color: #24312a;
+  margin-bottom: 20px;
+  font-family: var(--sans);
+  transition: border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #37633d;
+  box-shadow: 0 0 0 3px rgba(55, 99, 61, 0.1);
+}
+
+.plant-options-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 16px;
+}
+
+.plant-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 16px;
+  background: #fffdf7;
+  border: 2px solid #c6d4b7;
+  border-radius: 16px;
+  cursor: pointer;
+  font-family: var(--sans);
+  transition: all 0.18s ease;
+}
+
+.plant-option:hover {
+  border-color: #37633d;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(55, 99, 61, 0.15);
+}
+
+.plant-option img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.plant-option h3 {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #264b2f;
+  text-align: center;
+  line-height: 1.3;
+  word-break: break-word;
+}
+
+.no-results {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: #5c655e;
+  padding: 20px;
+}
+
+/* Water form - after plant selection */
+.water-form-container {
+  background: rgba(255, 252, 246, 0.88);
+  border: 2px solid #87a377;
+  border-radius: 24px;
+  padding: 28px;
+  margin-bottom: 20px;
+  box-shadow: 0 12px 28px rgba(88, 102, 77, 0.08);
+}
+
+.form-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.form-header h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #264b2f;
+}
+
+.water-form-container form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.water-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.water-form-group label {
+  font-weight: 700;
+  color: #264b2f;
+  font-size: 0.95rem;
+}
+
+.water-form-group select {
+  padding: 10px 14px;
+  border: 2px solid #87a377;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  font-family: var(--sans);
+  background: #fffdf7;
+  color: #24312a;
+  cursor: pointer;
+  transition: border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.water-form-group select:focus {
+  outline: none;
+  border-color: #37633d;
+  box-shadow: 0 0 0 3px rgba(55, 99, 61, 0.1);
+}
+
+.form-actions {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: center;
+}
+
+.form-actions .primary-button {
+  margin-top: 8px;
+}
+
+/* My plants section */
+.my-plants-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.my-plants-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.my-plants-header h2 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #23412a;
+}
+
+.add-button {
+  white-space: nowrap;
+}
+
+.my-plants-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 24px;
+  justify-content: center;
+}
+
+/* Plant card */
+.my-plant-card {
+  overflow: hidden;
+  border: 2px solid #87a377;
+  border-radius: 24px;
+  background: rgba(255, 252, 246, 0.92);
+  box-shadow: 0 14px 28px rgba(79, 103, 73, 0.12);
+  display: flex;
+  flex-direction: column;
+}
+
+.plant-card-image {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  background: #f0f0f0;
+}
+
+.plant-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.plant-card-content {
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  flex: 1;
+}
+
+.plant-card-content h3 {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #22342a;
+}
+
+.plant-details {
+  display: grid;
+  gap: 8px;
+  color: #334238;
+}
+
+.plant-details p {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.care-info {
+  border-top: 1px solid #d4c4b4;
+  border-bottom: 1px solid #d4c4b4;
+  padding: 12px 0;
+}
+
+.care-text {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #536057;
+}
+
+/* Water section */
+.water-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px 0;
+  border-bottom: 1px solid #d4c4b4;
+}
+
+.water-display {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.water-info {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #334238;
+}
+
+.btn-edit-water {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #dce8d0;
+  color: #2c5a36;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  white-space: nowrap;
+}
+
+.btn-edit-water:hover {
+  background: #c8dbb8;
+  transform: translateY(-1px);
+}
+
+.water-edit-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto auto;
+  gap: 8px;
+  align-items: flex-end;
+}
+
+.water-edit-form select {
+  padding: 8px 10px;
+  border: 2px solid #87a377;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-family: var(--sans);
+  background: #fffdf7;
+  color: #24312a;
+  cursor: pointer;
+}
+
+.water-edit-form select:focus {
+  outline: none;
+  border-color: #37633d;
+}
+
+/* Buttons */
+.primary-button {
+  border: none;
+  border-radius: 999px;
+  padding: 12px 24px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #f7f4eb;
+  background: linear-gradient(135deg, #2f5f39, #4f7d45);
+  cursor: pointer;
+  box-shadow: 0 14px 26px rgba(47, 95, 57, 0.22);
+  font-family: var(--sans);
+  transition: transform 0.18s ease, opacity 0.18s ease;
+}
+
+.primary-button:hover:enabled {
+  transform: translateY(-2px);
+}
+
+.primary-button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.btn-save {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #d4e8d0;
+  color: #2c5a36;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+
+.btn-save:hover {
+  background: #c0dbb8;
+  transform: translateY(-1px);
+}
+
+.btn-cancel {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #dccccc;
+  color: #554444;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+
+.btn-cancel:hover {
+  background: #ccbbbb;
+  transform: translateY(-1px);
+}
+
+.btn-delete {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  background: #f2d4d4;
+  color: #8b3a3a;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+
+.btn-delete:hover {
+  background: #e8c0c0;
+  transform: translateY(-1px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .my-plants-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .add-form-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .add-form-header h2 {
+    font-size: 1.4rem;
+  }
+
+  .plant-options-grid {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 12px;
+  }
+
+  .water-form-container form {
+    grid-template-columns: 1fr;
+  }
+
+  .water-edit-form {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .water-edit-form button {
+    grid-column: span 2;
+  }
+
+  .my-plants-header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .my-plants-header .primary-button {
+    width: 100%;
+  }
+}
