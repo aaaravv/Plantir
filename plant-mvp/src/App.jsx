@@ -102,11 +102,13 @@ function App() {
     <main className="app-shell">
       <section className="hero-panel">
         <p className="eyebrow">Plantir</p>
-        <h1>Find the right plant for your lifestyle.</h1>
-        <p className="hero-copy">
-          Match plants to your sunlight, climate, and maintenance preference so
-          beginners can grow successfully with less waste and less guesswork.
-        </p>
+        <div className="hero-content">
+          <h1>Find the right plant for your lifestyle.</h1>
+          <p className="hero-copy">
+            Match plants to your sunlight, climate, and maintenance preference so
+            beginners can grow successfully with less waste and less guesswork.
+          </p>
+        </div>
       </section>
 
       <form className="selection-layout" onSubmit={handleSubmit}>
