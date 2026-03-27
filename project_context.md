@@ -65,6 +65,10 @@ This is achieved through:
 
 ## 🎨 Branding & Design System
 
+### Slogan
+- `Find Your Plants. Love Your Plants.`
+- Can be used in headers, hero copy, or supporting brand messaging
+
 ### Colors
 - Background: `#FDF3D0` (Soft Sand)
 - Primary: `#2F5D2F` (Deep Moss Green)
