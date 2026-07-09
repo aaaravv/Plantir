@@ -1,18 +1,61 @@
-# React + Vite
+# 🌿 Plantir
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Plantir is a web application that helps users find houseplants that fit their environment and lifestyle. Users select their sunlight level, climate, and preferred maintenance level, and the app recommends plants that best match those preferences.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Recommends plants based on:
 
-## React Compiler
+  * Sunlight level
+  * Climate
+  * Maintenance preference
+* Displays basic care information for each recommended plant
+* Shows temperature recommendations
+* Highlights the best matches
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+* React
+* Vite
+* JavaScript
+* CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
 
-https://stitch.withgoogle.com/projects/9810705779033252400
+Clone the repository:
+
+```bash
+git clone https://github.com/aaaravv/Plantir.git
+```
+
+Navigate to the project:
+
+```bash
+cd Plantir/plant-mvp
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+## Future Improvements
+
+* Larger plant database
+* User accounts
+* Plant care reminders
+* Search and filtering
+* AI-powered plant recommendations
